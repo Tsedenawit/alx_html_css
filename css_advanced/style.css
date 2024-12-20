@@ -1,11 +1,33 @@
 header{
-    display: flex;
-    flex-direction: column;
+    background-image: url(https://s3-alpha-sig.figma.com/img/0278/3812/f9da308b090ff05e9e86fa2affd8ea9f?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cerh4vbgrL87x4-7W~EOyugV3V8uZl8UvYy5wJLOXwfLJBqz4ZCrFSPtQLHD4KCcGKFjPnKQ3BYRVXkmgLEMV48SIkVydxgtloXUUYm1zqLgimSmgpfDu0Ui35vAyM~VWKJ8L04XcpqGTRVn-48GYZ5z0-bM5FZkY1~D-6jx0hFTCMRfw6byP9zkmOz2uyPOqTnngb6M6zdBM45kJPOjtptyxb8I5D0utoGZ6Bt2xk~~HwgOFa-mnHi2kPFjGWcbmILNGg1uNTiMsfCUCg9HD1A3kUs3u5JXey401npF~VpBy-2IfDGn2Wer-vbX6UhhKkb~htMr2B0rWbcVyu1AbQ__);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 nav{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-h1{
-    color: red;
+nav ul{
+    display: flex;
+    gap: 25px;
+    padding-right: 150px;
+}
+li{
+    list-style-type: none;
+    padding-top: 35px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+#image1{
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+.sec1{
+    position: relative;
 }
