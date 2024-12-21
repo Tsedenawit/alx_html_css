@@ -1,33 +1,62 @@
-header{
-    background-image: url(https://s3-alpha-sig.figma.com/img/0278/3812/f9da308b090ff05e9e86fa2affd8ea9f?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cerh4vbgrL87x4-7W~EOyugV3V8uZl8UvYy5wJLOXwfLJBqz4ZCrFSPtQLHD4KCcGKFjPnKQ3BYRVXkmgLEMV48SIkVydxgtloXUUYm1zqLgimSmgpfDu0Ui35vAyM~VWKJ8L04XcpqGTRVn-48GYZ5z0-bM5FZkY1~D-6jx0hFTCMRfw6byP9zkmOz2uyPOqTnngb6M6zdBM45kJPOjtptyxb8I5D0utoGZ6Bt2xk~~HwgOFa-mnHi2kPFjGWcbmILNGg1uNTiMsfCUCg9HD1A3kUs3u5JXey401npF~VpBy-2IfDGn2Wer-vbX6UhhKkb~htMr2B0rWbcVyu1AbQ__);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+.cont {
+  background-image:linear-gradient(rgba(0, 0, 0.3, 0.5), rgba(0, 0, 0, 0.7)), url(https://s3-alpha-sig.figma.com/img/0278/3812/f9da308b090ff05e9e86fa2affd8ea9f?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cerh4vbgrL87x4-7W~EOyugV3V8uZl8UvYy5wJLOXwfLJBqz4ZCrFSPtQLHD4KCcGKFjPnKQ3BYRVXkmgLEMV48SIkVydxgtloXUUYm1zqLgimSmgpfDu0Ui35vAyM~VWKJ8L04XcpqGTRVn-48GYZ5z0-bM5FZkY1~D-6jx0hFTCMRfw6byP9zkmOz2uyPOqTnngb6M6zdBM45kJPOjtptyxb8I5D0utoGZ6Bt2xk~~HwgOFa-mnHi2kPFjGWcbmILNGg1uNTiMsfCUCg9HD1A3kUs3u5JXey401npF~VpBy-2IfDGn2Wer-vbX6UhhKkb~htMr2B0rWbcVyu1AbQ__);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav ul{
-    display: flex;
-    gap: 25px;
-    padding-right: 150px;
+nav ul {
+  display: flex;
+  gap: 25px;
+  padding-right: 150px;
 }
-li{
-    list-style-type: none;
-    padding-top: 35px;
+li {
+  list-style-type: none;
+  padding-top: 35px;
 }
-li a{
-    text-decoration: none;
-    color: white;
+li a {
+  text-decoration: none;
+  color: white;
 }
-#image1{
-    width: 50px;
-    height: 50px;
-    padding-top: 25px;
-    padding-left: 30px;
+#image1 {
+  width: 50px;
+  height: 50px;
+  padding-top: 25px;
+  padding-left: 30px;
 }
-.sec1{
-    position: relative;
+.sec1 {
+  position: relative;
+}
+.but1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #c271ff;
+  border-radius: 20px;
+  color: white;
+  width: 162px;
+  height: 44px;
+  top: 419px;
+  left: 639px;
+  gap: 0px;
+  opacity: 1px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.20);
+  border: none;
+  margin: 0 auto;
+  top: 2px;
+}
+.images{
+    width: 100px;
+    height: 100px;
+    top: 758px;
+    left: 506px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 100%;
 }
