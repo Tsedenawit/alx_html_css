@@ -2,11 +2,12 @@ body{
   font-family: 'Source Sans Pro', Arial, sans-serif;
 }
 .cont {
-  background-image:linear-gradient(rgba(0, 0, 0.3, 0.5), rgba(0, 0, 0, 0.7)), url(https://s3-alpha-sig.figma.com/img/0278/3812/f9da308b090ff05e9e86fa2affd8ea9f?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cerh4vbgrL87x4-7W~EOyugV3V8uZl8UvYy5wJLOXwfLJBqz4ZCrFSPtQLHD4KCcGKFjPnKQ3BYRVXkmgLEMV48SIkVydxgtloXUUYm1zqLgimSmgpfDu0Ui35vAyM~VWKJ8L04XcpqGTRVn-48GYZ5z0-bM5FZkY1~D-6jx0hFTCMRfw6byP9zkmOz2uyPOqTnngb6M6zdBM45kJPOjtptyxb8I5D0utoGZ6Bt2xk~~HwgOFa-mnHi2kPFjGWcbmILNGg1uNTiMsfCUCg9HD1A3kUs3u5JXey401npF~VpBy-2IfDGn2Wer-vbX6UhhKkb~htMr2B0rWbcVyu1AbQ__);
+  background-image: url(./images/Object.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
+  height: 150vh;
 }
 nav {
   display: flex;
@@ -27,8 +28,8 @@ li a {
   color: white;
 }
 #image1 {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 20px;
   padding-top: 25px;
   padding-left: 30px;
 }
