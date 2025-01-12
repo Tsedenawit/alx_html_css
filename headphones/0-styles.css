@@ -1,8 +1,39 @@
-nav{
+header{
     background-image: url(./images/headphones_hero_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
     height: 150vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-right: 50px;
+}
+.but1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #c271ff;
+    border-radius: 20px;
+    color: white;
+    width: 162px;
+    height: 44px;
+    top: 419px;
+    left: 639px;
+    gap: 0px;
+    opacity: 1px;
+    box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.2);
+    border: none;
+    margin: 0 auto;
+    top: 2px;
 }
