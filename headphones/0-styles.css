@@ -37,21 +37,3 @@ ul{
     margin: 0 auto;
     top: 2px;
 }
-main{
-    background-image: url(./images/headphones_hero_2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 100vh;
-    padding-top: 100px;
-}
-.pent{
-    background-image: url(./images/pentagone.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 150px;
-    width: 150px;
-}
